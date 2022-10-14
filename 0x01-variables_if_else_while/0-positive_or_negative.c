@@ -2,14 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *
- *  * main - Entry point
- *
- *   * Description: print if number is positive, negative, or zero
- *
- *    * Return: 0
- *
- *     */
+ * main - Entry point
+ * Description: print if number is positive, negative, or zero
+ * Return: 
+ */
 int main(void)
 {
 int n;

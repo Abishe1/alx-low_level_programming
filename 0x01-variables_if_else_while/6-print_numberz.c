@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
-*main - prints the alphabet at reverse
+*main - Prints the numbers since 0 to 9
 *Return: Always (success)
 */
 int main(void)
 {
-char c;
-for (c = 'z'; c >= 'a'; c--)
+int n;
+for (n = '0'; n <= '9'; n++)
 {
-putchar(c);
+putchar(n);
 }
 putchar('\n');
 return (0);

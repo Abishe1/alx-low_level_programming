@@ -2,7 +2,6 @@
 /**
  *main - prints series of numbers with commas
  *Return: Always (success)
-
  */
 int main(void)
 {

@@ -1,29 +1,22 @@
 #include "main.h"
 /**
- *_strstr - Locates a substring.
- *@haystack: The string to be searched.
- *@needle: The substring to be located.
- *Return: If the substring is located - a pointer to the beginning
- *of the located substring.
- *If the substring is not located - NULL.
+ *_strpbrk located the frist occurence in S if any bytes in accept
+ *@s: the string we look for occurenced in
+ *@accept: the print we compare against
+ *Return: a pointer to the byte or null
  */
 char *_strstr(char *haystack, char *needle)
 {
-int index;
-if (*needle == 0)
-return (haystack);
-while (*haystack)
+char c, *p;
+for (c = *S; c != 0; S++, c = *S)
 {
-index = 0;
-if (haystack[index] == needle[index])
+for (p = accept; *p != 0; p++)
 {
-do {
-if (needle[index + 1] == '\0')
-return (haystack);
-index++;
-} while (haystack[index] == needle[index]);
+if (c == *p)
+{
+return (s);
+} 
 }
-haystack++;
 }
-return ('\0');
+return (0);
 }

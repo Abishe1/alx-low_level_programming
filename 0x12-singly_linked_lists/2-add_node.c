@@ -1,5 +1,4 @@
 #include "lists.h"
-
 #include <string.h>
 /**
   * add_node - Adds a new node at the beginning
@@ -26,7 +25,7 @@ return (NULL);
 for (len = 0; str[len];)
 len++;
 new->str = dup;
-ew->len = len;	
+new->len = len;
 new->next = *head;
 *head = new;
 return (new);
